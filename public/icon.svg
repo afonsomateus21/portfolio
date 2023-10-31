@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="56.026691mm"
+   height="32.380081mm"
+   viewBox="0 0 56.026691 32.380081"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="bitmap.svg"
+   inkscape:export-xdpi="26.3263"
+   inkscape:export-ydpi="26.3263"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:export-bgcolor="#ff4b5700" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-108.94618,-85.177457)">
+    <rect
+       style="fill:#ff4b57;fill-opacity:1;stroke:none;stroke-width:0.03;stroke-dasharray:none;stroke-opacity:1"
+       id="rect10"
+       width="56.026691"
+       height="32.380081"
+       x="108.94618"
+       y="85.17746"
+       ry="4.4413328" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.5166px;font-family:Dyuthi;-inkscape-font-specification:Dyuthi;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0419324;stroke-dasharray:none;stroke-opacity:1"
+       x="113.9819"
+       y="107.61153"
+       id="text7"
+       transform="scale(0.96168578,1.0398407)"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="font-size:34.5166px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0419324;stroke-dasharray:none;stroke-opacity:1"
+         x="113.9819"
+         y="107.61153">AM</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.0641px;font-family:Dyuthi;-inkscape-font-specification:Dyuthi;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.321867;stroke-opacity:1"
+       x="148.21359"
+       y="-110.47623"
+       id="text8"
+       transform="scale(1.0414675,-0.96018358)"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.321867"
+         x="148.21359"
+         y="-110.47623">.</tspan></text>
+  </g>
+</svg>
