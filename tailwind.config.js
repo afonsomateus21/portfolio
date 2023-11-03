@@ -7,13 +7,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        blue: {
-          50: '#fdffff',
-          950: '#23253a'
+        black: '#1F2421',
+        gray: {
+          50: '#dce1de'
         },
-        red: {
-          500: '#ff4b57'
-        }
+        green: {
+          300: '#9CC5A1',
+          600: '#49A078',
+          800: '#216869'
+        },
       }
     },
   },
