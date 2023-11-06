@@ -6,6 +6,15 @@ export default {
   ],
   theme: {
     extend: {
+      keyframes: {
+        typing: {
+          'from': { width: '0' },
+          'to': { width: '100%' }
+        },
+      },
+      animation: {
+        'type': 'typing 3.5s steps(40, end)',
+      },
       colors: {
         black: '#1F2421',
         gray: {
@@ -16,7 +25,7 @@ export default {
           600: '#49A078',
           800: '#216869'
         },
-      }
+      },
     },
   },
   plugins: [],
