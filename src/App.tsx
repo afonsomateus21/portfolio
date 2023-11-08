@@ -1,5 +1,6 @@
 import { About } from "./components/About"
 import { NavBar } from "./components/NavBar"
+import { Technologies } from "./components/Technologies"
 
 export function App() {
   return (
@@ -8,6 +9,7 @@ export function App() {
 
       <main className="w-full mt-32">
         <About />
+        <Technologies />
       </main>
     </div>
   )

@@ -5,8 +5,8 @@ import Logo from "../assets/logo-portfolio-responsive.png";
 
 export function NavBar() {
   const Links =[
-    {name:"SOBRE",link:"/"},
-    {name:"TECNOLOGIAS",link:"/"},
+    {name:"SOBRE",link:"#technologies"},
+    {name:"TECNOLOGIAS",link:"#technologies"},
     {name:"CONTATO",link:"/"},
   ];
   const [open,setOpen]=useState(false);
