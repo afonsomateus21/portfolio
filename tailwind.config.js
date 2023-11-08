@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'glasses': "url('./src/assets/background.jpg')",
+        'glasses-sm': "url('./src/assets/background-sm.jpg')"
+      },
       keyframes: {
         typing: {
           'from': { width: '0' },

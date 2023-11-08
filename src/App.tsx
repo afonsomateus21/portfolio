@@ -4,10 +4,10 @@ import { Technologies } from "./components/Technologies"
 
 export function App() {
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50">
+    <div className="min-h-screen">
       <NavBar />
 
-      <main className="w-full mt-32">
+      <main className="w-full mt-20">
         <About />
         <Technologies />
       </main>
