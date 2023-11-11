@@ -15,8 +15,8 @@ export function Technologies() {
   ]
 
   return (
-    <section id="technologies" className="bg-green-800 p-16">
-      <div className=" w-full h-full lg:w-4/5 my-0 mx-auto flex flex-col items-center lg:justify-start">
+    <section id="technologies" className="bg-white p-16 h-screen">
+      <div className="w-full h-full lg:w-4/5 my-0 mx-auto flex flex-col items-center lg:justify-center">
         <h1 className="text-4xl font-bold">TECNOLOGIAS</h1>
         
         <div className='flex justify-center'>

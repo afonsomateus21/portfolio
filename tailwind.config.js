@@ -20,9 +20,13 @@ export default {
         'type': 'typing 3.5s steps(40, end)',
       },
       colors: {
+        blue: {
+          50: '#FAF8FF'
+        },
         black: '#1F2421',
         gray: {
-          50: '#dce1de'
+          50: '#dce1de',
+          500: '#D0FBE1'
         },
         green: {
           300: '#9CC5A1',

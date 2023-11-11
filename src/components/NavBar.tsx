@@ -5,11 +5,12 @@ import Logo from "../assets/logo-portfolio-responsive.png";
 
 export function NavBar() {
   const Links =[
-    {name:"SOBRE",link:"#technologies"},
+    {name:"SOBRE",link:"#about"},
     {name:"TECNOLOGIAS",link:"#technologies"},
-    {name:"CONTATO",link:"/"},
+    {name:"CONTATO",link:"#contact"},
   ];
-  const [open,setOpen]=useState(false);
+
+  const [open, setOpen] = useState(false);
 
   return (
     <header className='shadow-md w-full h-20 fixed top-0 left-0 bg-black'>
