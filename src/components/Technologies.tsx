@@ -15,15 +15,15 @@ export function Technologies() {
   ]
 
   return (
-    <section id="technologies" className="bg-white p-16 h-screen">
-      <div className="w-full h-full lg:w-4/5 my-0 mx-auto flex flex-col items-center lg:justify-center">
+    <section id="technologies" className="bg-gray-50 p-16 h-screen">
+      <div className="w-full h-full lg:w-4/5 my-0 mx-auto flex flex-col items-center justify-center">
         <h1 className="text-4xl font-bold">TECNOLOGIAS</h1>
         
         <div className='flex justify-center'>
-          <div className='grid grid-rows-6 md:grid-rows-3 grid-flow-col gap-10 p-10'>
+          <div className='grid grid-rows-4 md:grid-rows-3 grid-flow-col gap-10 p-10'>
             {
               Links.map( (link, index) => 
-                <div key={index} className="w-24 h-24 md:w-28 md:h-28">
+                <div key={index} className="w-16 h-16 md:w-28 md:h-28">
                   <img src={link} />
                 </div>  
               )
