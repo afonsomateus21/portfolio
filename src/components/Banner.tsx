@@ -1,6 +1,6 @@
 export function Banner() {
   return (
-    <section className='w-full h-screen bg-glasses-sm md:bg-glasses bg-no-repeat bg-center flex items-center'>
+    <section id="banner" className='w-full h-screen bg-glasses-sm md:bg-glasses bg-no-repeat bg-center flex items-center'>
       <div className='my-0 mx-auto flex lg:w-9/12 h-full md:h-3/5 justify-center md:justify-start items-center md:items-start'>
         <div className='w-full md:w-4/5 h-4/5 lg:3/5 p-6 md:p-4 flex flex-col justify-evenly items-start'>
           <div className="">

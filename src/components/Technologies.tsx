@@ -15,7 +15,7 @@ export function Technologies() {
   ]
 
   return (
-    <section id="technologies" className="bg-gray-50 p-16 h-screen">
+    <section id="technologies" className="bg-blue-50 p-16 h-screen">
       <div className="w-full h-full lg:w-4/5 my-0 mx-auto flex flex-col items-center justify-center">
         <h1 className="text-4xl font-bold">TECNOLOGIAS</h1>
         

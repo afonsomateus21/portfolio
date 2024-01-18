@@ -21,7 +21,8 @@ export default {
       },
       colors: {
         blue: {
-          50: '#FAF8FF'
+          50: '#FAF8FF',
+          300: '#00A8F6'
         },
         black: '#1F2421',
         gray: {
@@ -29,6 +30,8 @@ export default {
           500: '#D0FBE1'
         },
         green: {
+          50: '#F0FCF5',
+          200: '#D3FBD8',
           300: '#9CC5A1',
           600: '#49A078',
           800: '#216869'
