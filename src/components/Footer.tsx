@@ -1,4 +1,5 @@
 import LogoCompany from '../assets/logo-company.png';
+import { Links } from '../constants/links';
 import { ContactButton } from './ContactButton';
 
 export function Footer() {
@@ -25,12 +26,15 @@ export function Footer() {
           </div>
         </div>
 
-        <div className='w-full md:w-56 mb-8 md:mb-0'>
-          <h2 className='text-white text-lg font-bold text-center mb-4 md:mb-8'>Navegação</h2>
+        <div className='w-full md:w-56 mb-4 md:mb-0'>
+          <h2 className='text-white text-lg font-bold text-center'>Navegação</h2>
           <div className='flex flex-col items-center'>
-            <a href="#banner"><span className='text-white'>INICIO</span></a>
-            <a href="#about"><span className='text-white'>SOBRE</span></a>
-            <a href="#technologies"><span className='text-white'>TECNOLOGIAS</span></a>
+            {
+              Links.map((link) => (
+                <a href={link.link}><span className='text-white'>{link.name}</span></a>
+              ))
+            }
+            
           </div>
         </div>
 

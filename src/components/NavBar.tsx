@@ -2,14 +2,9 @@ import { useState } from "react";
 import { IconContext } from "react-icons";
 import { AiOutlineMenu } from "react-icons/ai";
 import Logo from "../assets/logo-company.png";
+import { Links } from "../constants/links";
 
 export function NavBar() {
-  const Links =[
-    {name:"SOBRE",link:"#about"},
-    {name:"TECNOLOGIAS",link:"#technologies"},
-    {name:"CONTATO",link:"#contact"},
-  ];
-
   const [open, setOpen] = useState(false);
 
   return (
