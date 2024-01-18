@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { IconContext } from "react-icons";
 import { AiOutlineMenu } from "react-icons/ai";
-import Logo from "../assets/logo-portfolio-responsive.png";
+import Logo from "../assets/logo-company.png";
 
 export function NavBar() {
   const Links =[
@@ -13,10 +13,10 @@ export function NavBar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className='shadow-md w-full h-20 fixed top-0 left-0 bg-black'>
+    <header className='shadow-md w-full h-24 fixed top-0 left-0 bg-black'>
       <div className='lg:w-9/12 lg:my-0 lg:mx-auto md:flex items-center justify-between  py-4 md:px-10 px-7'>
         <div className='font-bold text-2xl cursor-pointer flex items-center font-[Roboto] text-white'> 
-          <img src={Logo} alt="Logo do portfolio" />
+          <img className="w-16 h-16 md:w-20 md:h-20" src={Logo} alt="Logo do portfolio" />
         </div>
         
         <div onClick={ () => setOpen(!open) } className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'>
