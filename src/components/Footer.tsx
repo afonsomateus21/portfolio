@@ -1,5 +1,5 @@
 import { Link } from 'react-scroll';
-import LogoCompany from '../assets/logo-company.png';
+import LogoCompany from '/assets/logo-company.png';
 import { Links, SocialMediaLinks } from '../constants/links';
 import { ContactButton } from './ContactButton';
 

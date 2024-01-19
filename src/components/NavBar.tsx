@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { IconContext } from "react-icons";
 import { AiOutlineMenu } from "react-icons/ai";
-import Logo from "../assets/logo-company.png";
+import Logo from "/assets/logo-company.png";
 import { Links } from "../constants/links";
 import { Link } from "react-scroll";
 

@@ -1,4 +1,4 @@
-import ProgrammerImage from '../assets/programmer.png';
+import ProgrammerImage from '/assets/programmer.png';
 
 export function About() {
   return (

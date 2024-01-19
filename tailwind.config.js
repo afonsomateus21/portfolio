@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'glasses': "url('./src/assets/background.jpg')",
-        'glasses-sm': "url('./src/assets/background-sm.jpg')"
+        'glasses': "url('/assets/background.jpg')",
+        'glasses-sm': "url('/assets/background-sm.jpg')"
       },
       keyframes: {
         typing: {
