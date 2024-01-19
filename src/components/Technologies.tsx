@@ -1,4 +1,4 @@
-import { ImageLinks } from "../constants/links";
+import { TecnologieImagesLinks } from "../constants/links";
 
 export function Technologies() {
   return (
@@ -9,8 +9,8 @@ export function Technologies() {
         <div className='flex justify-center'>
           <div className='grid grid-rows-4 md:grid-rows-3 grid-flow-col gap-10 p-10'>
             {
-              ImageLinks.map( (link, index) => 
-                <div key={index} className="w-36 h-16 md:w-28 md:h-28 md:hover:w-32 hover:opacity-50">
+              TecnologieImagesLinks.map( (link, index) => 
+                <div key={index} className="w-16 h-16 md:w-28 md:h-28 md:hover:w-32 hover:opacity-50">
                   <img src={link} />
                 </div>  
               )

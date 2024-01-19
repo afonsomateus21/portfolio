@@ -1,5 +1,5 @@
 import LogoCompany from '../assets/logo-company.png';
-import { Links } from '../constants/links';
+import { Links, SocialMediaLinks } from '../constants/links';
 import { ContactButton } from './ContactButton';
 
 export function Footer() {
@@ -8,21 +8,18 @@ export function Footer() {
       <div className='flex flex-wrap justify-center md:justify-evenly items-center'>
         <img src={LogoCompany} alt="Logo da empresa" className='w-28 h-28 mb-4 md:mb-0 md:mr-8'/>
 
-        <div className='w-full md:w-60 mb-8 md:mb-0'>
+        <div className='w-full md:w-60 mb-8 md:mb-0 flex flex-col items-center'>
           <h2 className='text-white text-lg font-bold text-center mb-4 md:mb-8'>Minhas redes sociais</h2>
-          <div className='flex justify-center md:justify-between items-center'>
-            <ContactButton
-              image='https://img.icons8.com/color/48/whatsapp--v1.png'
-              link='https://wa.me/+5585981977456'
-            />
-            <ContactButton
-              image='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg'
-              link='https://www.linkedin.com/in/afonsomateus/'
-            />
-            <ContactButton
-              image='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'
-              link='https://github.com/afonsomateus21'
-            />
+          <div className='flex justify-evenly md:justify-between items-center w-full md:w-80'>
+            {
+              SocialMediaLinks.map((item, index) => (
+                <ContactButton
+                  key={index}
+                  image={item.image}
+                  link={item.link}
+                />
+              ))
+            }
           </div>
         </div>
 
@@ -30,8 +27,8 @@ export function Footer() {
           <h2 className='text-white text-lg font-bold text-center'>Navegação</h2>
           <div className='flex flex-col items-center'>
             {
-              Links.map((link) => (
-                <a href={link.link}><span className='text-white'>{link.name}</span></a>
+              Links.map((item, index) => (
+                <a key={index} href={item.link}><span className='text-white'>{item.name}</span></a>
               ))
             }
             

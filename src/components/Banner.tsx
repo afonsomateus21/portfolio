@@ -14,10 +14,12 @@ export function Banner() {
             </p>
           </div>
 
-          <button className="flex justify-between p-6 rounded-3xl items-center h-9 w-60 bg-white">
-            <img className="h-7 w-7" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />
-            <span className="text-lg">Entre em contato</span>
-          </button>
+          <a href="https://wa.me/+5585981977456">
+            <div className="flex justify-between p-6 rounded-3xl items-center h-9 w-60 bg-white">
+              <img className="h-7 w-7" src="https://img.icons8.com/color/48/whatsapp--v1.png" />
+              <span className="text-lg">Entre em contato</span>
+            </div>
+          </a>
         </div>
       </div>
     </section>
