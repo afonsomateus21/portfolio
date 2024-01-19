@@ -1,6 +1,5 @@
-import { Link } from 'react-scroll';
 import LogoCompany from '/assets/logo-company.png';
-import { Links, SocialMediaLinks } from '../constants/links';
+import { SocialMediaLinks } from '../constants/links';
 import { ContactButton } from './ContactButton';
 
 export function Footer() {
@@ -24,31 +23,15 @@ export function Footer() {
           </div>
         </div>
 
-        <div className='w-full md:w-56 mb-4 md:mb-0'>
-          <h2 className='text-white text-lg font-bold text-center'>Navegação</h2>
-          <div className='flex flex-col items-center'>
-            {
-              Links.map((item, index) => (
-                <Link 
-                  key={index} 
-                  to={item.link}
-                  smooth={true}
-                  duration={1200}
-                  className='cursor-pointer'
-                >
-                  <span className='text-white'>{item.name}</span>
-                </Link>
-              ))
-            }
-            
-          </div>
-        </div>
-
         <div className='w-full md:w-56 md:mt-8 lg:mt-0'>
           <h2 className='text-white text-lg font-bold text-center mb-4 md:mb-8'>Fontes</h2>
           <div className='flex flex-col items-center'>
-            <a href="https://icons8.com"><span className='text-white'>Icons8</span></a>
-            <a href="https://devicon.dev/"><span className='text-white'>Devicon</span></a>
+            <a href="https://icons8.com" target='_blank'>
+              <span className='text-white'>Icons8</span>
+            </a>
+            <a href="https://devicon.dev/" target='_blank'>
+              <span className='text-white'>Devicon</span>
+            </a>
           </div>
         </div>
       </div>

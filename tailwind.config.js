@@ -17,7 +17,7 @@ export default {
         },
       },
       animation: {
-        'type': 'typing 3.5s steps(40, end)',
+        'type': 'typing 5s steps(40, end)',
       },
       colors: {
         blue: {

@@ -10,9 +10,9 @@ export function Banner() {
               Prazer,<br className="md:hidden"/> me chamo<br className="md:hidden"/> Afonso Mateus.
             </h1>
             <p className="text-lg mt-4 md:mt-6 md:text-xl text-justify text-white">
-              Minha experiência inclui trabalhar em projetos diversos e utilizar tecnologias como React, React Native, Java, 
-              Node, Django e bancos de dados como PostgreSQL, MySQL e MongoDB, 
-              além de familiaridade com Docker e Linux.
+              Minha experiência inclui trabalhar em projetos diversos e utilizar tecnologias, tais como: 
+              React, React Native, Node, NestJS, Java e bancos de dados como PostgreSQL, MySQL e MongoDB; 
+              além de possuir familiaridade com Docker e Linux.
             </p>
           </div>
 
