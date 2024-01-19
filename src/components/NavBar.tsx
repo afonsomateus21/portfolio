@@ -3,6 +3,7 @@ import { IconContext } from "react-icons";
 import { AiOutlineMenu } from "react-icons/ai";
 import Logo from "../assets/logo-company.png";
 import { Links } from "../constants/links";
+import { Link } from "react-scroll";
 
 export function NavBar() {
   const [open, setOpen] = useState(false);
@@ -24,7 +25,13 @@ export function NavBar() {
           {
             Links.map((item, index)=>(
               <li key={index} className='md:ml-8 text-xl md:my-0 my-7'>
-                <a href={item.link} className='text-white font-[Roboto] hover:text-gray-400 duration-500'>{item.name}</a>
+                <Link 
+                  to={item.link} 
+                  smooth={true}
+                  duration={1200}
+                  className='text-white font-[Roboto] hover:text-gray-400 duration-500 cursor-pointer'>
+                    {item.name}
+                </Link>
               </li>
             ))
           }

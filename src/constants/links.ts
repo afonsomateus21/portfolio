@@ -1,19 +1,19 @@
 export const Links = [
   {
     name: "INÍCIO", 
-    link: "#banner"
+    link: "banner"
   },
   {
     name:"SOBRE", 
-    link:"#about"
+    link:"about"
   },
   {
     name:"TECNOLOGIAS", 
-    link:"#technologies"
+    link:"technologies"
   },
   {
     name:"CONTATO", 
-    link:"#contact"
+    link:"contact"
   },
 ];
 

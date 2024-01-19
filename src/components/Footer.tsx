@@ -1,10 +1,11 @@
+import { Link } from 'react-scroll';
 import LogoCompany from '../assets/logo-company.png';
 import { Links, SocialMediaLinks } from '../constants/links';
 import { ContactButton } from './ContactButton';
 
 export function Footer() {
   return (
-    <footer className="bg-black py-8 md:py-16">
+    <footer id='contact' className="bg-black py-8 md:py-16">
       <div className='flex flex-wrap justify-center md:justify-evenly items-center'>
         <img src={LogoCompany} alt="Logo da empresa" className='w-28 h-28 mb-4 md:mb-0 md:mr-8'/>
 
@@ -28,7 +29,15 @@ export function Footer() {
           <div className='flex flex-col items-center'>
             {
               Links.map((item, index) => (
-                <a key={index} href={item.link}><span className='text-white'>{item.name}</span></a>
+                <Link 
+                  key={index} 
+                  to={item.link}
+                  smooth={true}
+                  duration={1200}
+                  className='cursor-pointer'
+                >
+                  <span className='text-white'>{item.name}</span>
+                </Link>
               ))
             }
             
